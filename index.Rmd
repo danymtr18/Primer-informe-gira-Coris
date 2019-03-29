@@ -1,0 +1,98 @@
+---
+title: "Informe de Gira a la zona de Coris, Cartago"
+---
+<font size=3>
+Ericka Arley y Daniela Madrigal
+ </font>
+ 
+<font size=5>
+*Área de observación de aves*
+ </font>
+
+<p align="justify">
+Se realizo una gira al pueblo de Coris, ubicada en la provincia de Cartago, Costa Rica. Cuyos objetivos fueronobservar aves de hábitat abiertos, potreros y área de manejo agroforestales y agrícolas. Ademas de entender e interpretar las poblacioes de aves acuáticas que está asociadas a estos ecositemas. Coris al ser parte de Cartago; se caracteriza por lluvias moderadas y temperaturas frescas. Mantiene precipitaciones cercanas a los 2000 mm por año, con 128 días con lluvia y un solo mes seco. La temperatura máxima promedio es de 26 grados centígrados y la mínima promedio de 15 grados. Su relieve montañoso está formado por dos cordilleras: la Central, en donde se encuentra el Volcán Irazú, el más alto del país y la cordillera de Talamanca, en donde destaca el cerro más alto de Costa Rica, el Cerro Chirripó con 3,819 metros sobre el nivel del mar.
+</p>
+
+# ![](imagenes/mapa.JPG)
+#####Figúra 1. Fotografía pueblo de Coris en Cartago 
+\
+\
+<p align="justify">
+En el pueblo de Coris se dedican principalmente a la gandería y agricultura.  Un sitio donde hay presencia de muchos proteros combinados con manglares, canales de agua; donde se puede apreciar diferentes especies de aves acuáticas.
+</p>
+
+<p align="center">
+# ![](imagenes/j.jpg)
+#####Figúra 2. Fotografía _Jacana spinosa_.
+Fuente: Ericka Arley 
+</p>
+\
+<font size=5>
+Especies reportadas en Coris
+</font>
+\
+<p align="justify">
+En el siguiente apartado se encuentra una tabla con el estatus y grado de amenaza de las especies observadas tanto en la finca como en el humedal visitados. El estatus de la especie se obtuvo de la lista oficial de aves de Costa Rica (Garrigues *et al*., 2018). El grado de amenaza es el reportado por la lista roja de la UICN.
+</p>
+\
+<p align="justify">
+ Tabla 1. Especies, estatus y grado de amenaza de las aves vistas en Coris. Significado de los prefijos M: migratoria, R: residente, RE: residente y migratorio, RM: residente y megratorio, PM: preocupación menor, CA: casi amenazado.
+ </p>
+```{r}
+library(kableExtra)
+tabla<- read.delim("C:/EcologAves/tabla.txt")
+kable(tabla) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+<p align="justify">
+El estatus de cadad especie (Figúra 3) resultó en el agrupamiento de cuatro categorías (mencionadas en la tabla 1), siendo las residentes las que más tuvieron presencia en el citio.
+</p>
+
+```{r}
+library(readr)
+library(ggplot2)
+library(dplyr)
+datos<-read.csv("C:/EcologAves/tabla.csv")
+data<-data.frame(Estatus=c("RM","RE","R","M"), value=c(14,2,38, 8))
+data <- data %>%
+  arrange(desc(Estatus)) %>%
+  mutate(lab.ypos = cumsum(value) - 0.5*value)
+mycols <- c("#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF")
+ggplot(data, aes(x = 2, y = value, fill = Estatus)) +
+  geom_bar(stat = "identity", color = "white") +
+  coord_polar(theta = "y", start = 0)+
+  geom_text(aes(y = lab.ypos, label = value), color = "white")+
+  scale_fill_manual(values = mycols) +
+  theme_void()+
+  xlim(0.5, 2.5)+
+  labs(x = NULL, y = NULL, fill = NULL, title = "Estatus de las especies en Coris")
+
+```
+<p align="justify">
+#####Figúra 3. Gráfico de pastel sobre el estatus de las especies vistas en Coris. Los números representan la cantidad de individuos para cada categoría.
+</p>
+\
+<p align="justify">
+Con respecto al grado de amenaza (Figura 4), solomente *Sturnella magna* posee un estado catalogado como casi amenazada, las demás especies mantienen poblaciones estables.
+</p>
+```{r}
+tabla<-read.csv("C:/EcologAves/tabla.csv")
+data<-data.frame(Amenaza=c("PM","CA"), value=c(61,1))
+data <- data %>%
+  arrange(desc(Amenaza)) %>%
+  mutate(lab.ypos = cumsum(value) - 0.5*value)
+ggplot(data, aes(x = 2, y = value, fill = Amenaza)) +
+  geom_bar(stat = "identity", color = "white") +
+  coord_polar(theta = "y", start = 0)+
+  geom_text(aes(y = lab.ypos, label = value), color = "white")+
+  theme_void()+
+  xlim(0.5, 2.5)+
+  labs(x = NULL, y = NULL, fill = NULL, title = "Grado de amenaza según UICN")
+
+
+
+```
+<p align="justify">
+#####Figúra 4. Gráfico de pastel sobre el grado de amenaza para las especies reportadas en Coris, según la lista roja de la UICN. 
+</p>
