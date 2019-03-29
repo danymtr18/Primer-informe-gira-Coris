@@ -1,0 +1,76 @@
+---
+title: "Comportamiento de dos especies elegidas"
+---
+
+ <font size=5>
+ *Milvago chimachima*
+ </font>
+ 
+<p align="justify">
+El Caracara cabecigualdo (*M. chimachima*) es una especie perteneciente a la Familia Falconidae. Se distribuye desde Costa Rica hasta el Norte de Argentina, así como tambien en el Sureste de Brasil. Es un ave que prefiere habitar en áreas abiertas como pastizales, sabanas o campos; además, Se puede observar en los caminos comiendo presas atropelladas. Le gusta cazar entre el ganado, volando y cayendo sobre sus presas o desde el suelo. Su dieta se basa en ratones, reptiles, insectos y peces (Stiles & Skutch, 2007). 
+</p>
+<p align="justify">
+*M. chimachima* es catalogado entonces como un cazador oportunista, generalista y carroñero de animales pequeños (De La Ossa & De La Ossa-Lacayo, 2011). Por otra parte, *Pitangus sulphuratus* se ha reportado como una especie que acosa a este falconido. Esto se debe a una acción-reacción, ya que *M. chimachima* saquea los nidos de *P. sulphuratus*, y esta sale en defensa del territorio, del nido o las crías (De La Ossa *et al*., 2018).   
+</p>
+
+# ![](imagenes/p.jpg.jpg)
+#####Figúra 5. Fotografía de _Milvago Chimachima_.  
+Fuente: Ericka Arley 
+
+<font size=5>
+**_Spizaetus tyrannus_**
+ </font>
+
+<p align="justify">
+Su distribución se extiende desde el este de México, luego a lo largo de Centroamérica, por la región Pacífica y Caribe de Colombia, Venezuela y extensamente por la región Amazonia y Guayanesa de Venezuela, Guyana, Surinam, Guayana Francesa, Brasil, Ecuador, Perú y Bolivia. (Bierregaard y Kirwan 2013). Cuya longitud de adulto es de 58-71 cm. De actividad  diurna y solitaria  (Ferguson-Lees y Christie, 2001), su hábitat abarca desde tierras bajas muy húmedas, montañas, bosques y bosque secundario (Whitacre, 2012), especialmente áreas abiertas a lo largo de las orillas de los ríos.
+</p>
+<p align="justify">
+Se alimenta de los mamíferos, especialmente de los monos aulladores, aves, roedores, murciélagos, lagartos y serpientes. (Joao et al., 2006). Además, este tipo de águila se observa intentando cazar animales de corral esporádicamente, por lo que se le llama comúnmente “cobo” en Colombia. Caza volando de rama en rama o en el borde del bosque, luego vuela rápidamente para atacar a su presa en el suelo o en los árboles. (Acevedo-Charry, O, Matiz-González, E , Pérez-Albarracín, K , Rodríguez-González, S , Valencia-Vera, C, 2015). En la gira realizada en Cori esta especie fue encontrada en vuelo a altas alturas, por lo que se puede predecir que la rapas estaba en búsqueda de alimento o en caza.
+</p>
+<p align="justify">
+Spizaetus tyrannus es usada como indicadora del estado de conservación de los ecosistemas, ya que es sensibles a las perturbaciones de hábitat y requiere presas alimenticias igualmente grandes que ocupan extensiones considerables de hábitat bien conservado.  Sin embargo también se puede encontrar en sitios perturbados, y es la especie dentro del género Spizaetus más ampliamente distribuida y la más abundante de ellas. (Acevedo-Charry, Matiz-González, Pérez-Albarracín, Rodríguez-González y Valencia-Vera, 2015)
+</p>
+
+# ![](imagenes/s.jpg)
+#####Fig 4. Fotografía de *Spizaetus tyranus*.
+
+
+
+<font size=3>
+*Bibliografía*
+ </font>
+ 
+<p align="justify">
+ Acevedo-Charry, O, Matiz-González, E, Pérez-Albarracín, K , Rodríguez-González, S , Valencia-Vera, C. (2015). El águila arpía (Harpía harpia) y el águila iguanera (Spizaetus tyrannus) en el ecotono entre los andes y los llanos de la Orinoqui, Arauca, Colombia. Boletín de la RRN. 9: 2-11. 
+\
+\
+Bierregaard, R.O. Jr., y G.M. Kirwan. 2013. Black Hawk-eagle (Spizaetus tyrannus). En: del Hoyo, J., A. Elliot, J. Sargatal, D.A.
+\
+\
+Christie, y E. de Juana (eds). Handbook of the Birds of the World Alive. Lynx Edicions, Barcelona. (consultado en línea en http://www.hbw.com/node/53182 el 9 de diciembre de 2014) 
+\
+\
+De La Ossa, J., & De La Ossa-Lacayo, A. (2011). Aspectos de la densidad poblacional e historia natural de Milvago chimachima (AVES: Falconidae) en el área urbana de Sincelejo (Sucre, Colombia). Universitas Scientiarum, 16(1), 63-69.
+\
+\
+De La Ossa, J., De La Ossa-Lacayo, A., & Montes, D. (2018). Anotaciones etológicas de Milvago chimachima, Vieillot, 1816 (Aves: Falconidae). Revista MVZ Córdoba, 23(1), 6514-6522.
+\
+\
+Ferguson-Lees, J. and Christie, D.A. (2001). Raptors of the world. Boston: Houghton Mifflin Company.
+\
+\
+Ffrench, R. (2012). A Guide to the Birds of Trinidad and Tobago. 3 rd ed. Cornell University Press.
+\
+\
+Garrigues, Richard., P. Camacho-Varela, M. Montoya, P. O’Donnell, O. Ramírez-Alán, J. Zook. 2018. Lista Oficial de las Aves de Costa Rica – Actualización 2018. Comité de Especies Raras y Registros Ornitológicos de Costa Rica (Comité Científico), Asociación Ornitológica de Costa Rica. Zeledonia 22:2. San José, Costa Rica. (Versión Online. Incluye últimos cambios aceptados por el Comité publicados primero en-línea).
+\
+\
+Joao, M., Itibree, B., Rodrigo, M. and Fernando, P. (2006). Antipredator behaviour of brown howlers attacked by black hawk eagle in Southern Brazil. International Journal of Primatology. 27: 1097-1101.
+\
+\
+Stiles, F. G., & Skutch, A. F. (2007). Guía de aves de Costa Rica. Editorial INBio.
+\
+\
+Whitacre. D. (2012). Neotropical Birds of Prey: Biology and Ecology of a Forest Raptor Community. Cornell University Press.
+</p>
+
