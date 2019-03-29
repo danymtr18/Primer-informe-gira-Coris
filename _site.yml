@@ -1,0 +1,14 @@
+name: "Informe de gira a la zona de Coris, Cartago"
+navbar:
+  title: "Primer informe de gira"
+  left:
+    - text: "Reporte"
+      href: index.html
+    - text: "Especies seleccionadas"
+      href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    
+ 
